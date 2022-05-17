@@ -19,7 +19,7 @@ paginate = 5
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = true
+  fullWidthTheme = false
 
   # center theme with default width
   centerTheme = true
@@ -48,7 +48,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "Jonathan Nicholson"
-    subtitle = "A place to share what I am doind and what I've learned"
+    subtitle = "A place to share what I am doing and what I've learned"
     owner = ""
     keywords = ""
     copyright = ""
