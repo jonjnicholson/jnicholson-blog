@@ -1,4 +1,4 @@
-baseURL = 'http://jnicholson.me/'
+# baseURL = 'http://jnicholson.me/' -- this isn't ready yet
 languageCode = 'en-us'
 baseurl = "/"
 theme = "terminal"
