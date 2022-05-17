@@ -12,6 +12,6 @@ readingTime = false
 hideComments = false
 +++
 
-```
-print("hello world")
+```csharp
+Console.Write("hello world");
 ```
