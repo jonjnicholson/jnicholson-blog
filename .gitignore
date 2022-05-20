@@ -1,0 +1,5 @@
+# Specify filepatterns you want git to ignore.
+
+resource/
+.DS_Store
+.hugo_build.lock
