@@ -7,7 +7,7 @@ cover = ""
 tags = []
 keywords = ["", ""]
 description = ""
-showFullContent = false
+showFullContent = true
 readingTime = false
 hideComments = false
 +++
