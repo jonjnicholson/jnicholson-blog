@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tailscale on Jonathan Nicholson</title>
+    <link>/tags/tailscale/</link>
+    <description>Recent content in Tailscale on Jonathan Nicholson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Jun 2023 17:44:03 -0400</lastBuildDate><atom:link href="/tags/tailscale/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Use Tailscale</title>
+      <link>/posts/how-i-use-tailscale/</link>
+      <pubDate>Sun, 18 Jun 2023 17:44:03 -0400</pubDate>
+      
+      <guid>/posts/how-i-use-tailscale/</guid>
+      <description>What is it? Tailscale is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. It enables encrypted point-to-point connections using the open source WireGuard protocol, which means only devices on your private network can communicate with each other.
+It has a very generous free tier that includes most of the features included in the higher paid tiers while limiting you to 100 devices&amp;ndash;more than enough for my use cases.</description>
+      <content>&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://tailscale.com/kb/1151/what-is-tailscale/#the-benefits&#34;&gt;Tailscale&lt;/a&gt; is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. It enables encrypted point-to-point connections using the open source WireGuard protocol, which means only devices on your private network can communicate with each other.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has a very generous free tier that includes most of the features included in the higher paid tiers while limiting you to 100 devices&amp;ndash;more than enough for my use cases.&lt;/p&gt;
+&lt;h2 id=&#34;where-does-it-work&#34;&gt;Where does it work?&lt;/h2&gt;
+&lt;p&gt;Tailscale also has apps and integrations with all the operating systems and devices that I require. I have it installed on my &lt;a href=&#34;https://pi-hole.net/&#34;&gt;pi-hole&lt;/a&gt; and &lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;home assistant&lt;/a&gt; Raspberry Pi&amp;rsquo;s as well as my iPhone, Mac, and &lt;a href=&#34;https://www.synology.com/en-us&#34;&gt;Synology NAS&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;ad-blocking&#34;&gt;Ad blocking&lt;/h2&gt;
+&lt;p&gt;I have been casually using Tailscale, but I recently read this &lt;a href=&#34;https://tailscale.com/kb/1114/pi-hole/&#34;&gt;post&lt;/a&gt; that explained how to use Tailscale in coordination with your Pi-Hole to get ad-blocking even when I&amp;rsquo;m not at home.&lt;/p&gt;
+&lt;p&gt;One issue I ran into was covered by the &lt;a href=&#34;https://tailscale.com/kb/1114/pi-hole/#troubleshooting&#34;&gt;troubleshooting&lt;/a&gt; section of the previously mentioned article, but the UI of my Pi-Hole running versions &lt;code&gt; Pi-hole v5.17.1 FTL v5.23 Web Interface v5.20.1&lt;/code&gt; did look a little different.&lt;/p&gt;
+&lt;h2 id=&#34;using-tailscale-while-traveling&#34;&gt;Using Tailscale while traveling&lt;/h2&gt;
+&lt;p&gt;Another aspect of Tailscale I recently learned is the concept of &lt;a href=&#34;https://tailscale.com/kb/1103/exit-nodes/&#34;&gt;exit nodes&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The exit node feature lets you route all non-Tailscale internet traffic through a specific device on your network.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This means that I can use Tailscale in place of other VPN options to secure my internet traffic when I&amp;rsquo;m traveling and using public wifi.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m very happy with how powerful Tailscale is as well as how great the documentation is. The free tier is extremely useful and I&amp;rsquo;m surprised that they offer all they do in the tier.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
