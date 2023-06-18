@@ -57,11 +57,9 @@ One thing I missed the first time I pushed updates to my repo was setting the ve
       <pubDate>Sat, 21 May 2022 08:17:23 -0400</pubDate>
       
       <guid>/about/</guid>
-      <description>Mastodon
-Hi 👋 I&amp;rsquo;m Jonathan I&amp;rsquo;m a software developer by trade, but I have many interests including: photography, travel, technology, productivity, ergo keyboards, alternative keyboard layouts, and more!
+      <description>Hi 👋 I&amp;rsquo;m Jonathan I&amp;rsquo;m a software developer by trade, but I have many interests including: photography, travel, technology, productivity, ergo keyboards, alternative keyboard layouts, and more!
 Contact Questions? Comments? Feel free to contact me at contact@jnicholson.me.</description>
-      <content>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Mastodon&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;h1 id=&#34;hi--im-jonathan&#34;&gt;Hi 👋 I&amp;rsquo;m Jonathan&lt;/h1&gt;
+      <content>&lt;h1 id=&#34;hi--im-jonathan&#34;&gt;Hi 👋 I&amp;rsquo;m Jonathan&lt;/h1&gt;
 &lt;p&gt;I&amp;rsquo;m a software developer by trade, but I have many interests including: photography, travel, technology, productivity, ergo keyboards, alternative keyboard layouts, and more!&lt;/p&gt;
 &lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;
 &lt;p&gt;Questions? Comments? Feel free to contact me at &lt;a href=&#34;mailto:contact@jnicholson.me&#34;&gt;contact@jnicholson.me&lt;/a&gt;.&lt;/p&gt;

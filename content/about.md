@@ -5,8 +5,6 @@ draft: false
 hideComments: true
 ---
 
-<a rel="me" href="https://mastodon.social/@jonjnicholson">Mastodon</a>
-
 # Hi 👋 I'm Jonathan 
 
 I'm a software developer by trade, but I have many interests including: photography, travel, technology, productivity, ergo keyboards, alternative keyboard layouts, and more!
