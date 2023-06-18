@@ -5,6 +5,7 @@ draft: false
 hideComments: true
 ---
 
+<a rel="me" href="https://mastodon.social/@jonjnicholson">Mastodon</a>
 
 # Hi 👋 I'm Jonathan 
 
