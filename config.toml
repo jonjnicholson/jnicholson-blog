@@ -81,7 +81,7 @@ url = "https://github.com/jonjnicholson"
 
 [[params.socialIcons]]
 name = "mastodon"
-url = "https://mastodon.social/jonjnicholson"
+url = "https://mastodon.social/@jonjnicholson"
 
 [[params.socialIcons]]
 name = "Pixelfed"
