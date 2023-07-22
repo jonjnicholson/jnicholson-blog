@@ -26,5 +26,3 @@ This means that I can use Tailscale in place of other VPN options to secure my i
 
 ## Conclusion
 I'm very happy with how powerful Tailscale is as well as how great the documentation is. The free tier is extremely useful and I'm surprised that they offer all they do in the tier. 
-
-## test
