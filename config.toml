@@ -1,4 +1,5 @@
-baseURL = "https://c1c66212.jnicholson-blog.pages.dev/"
+baseURL = "https://jnicholson.me/"
+title = "Jonathan Nicholson"
 title = "Jonathan Nicholson"
 paginate = 5
 theme = "PaperMod"
