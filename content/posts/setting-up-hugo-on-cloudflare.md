@@ -1,16 +1,8 @@
-+++
-title = "Setting Up Hugo on Cloudflare"
-date = "2022-05-27T22:31:19-04:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["technology", "hugo", "cloudflare"]
-keywords = ["", ""]
-description = ""
-showFullContent = false
-readingTime = true
-hideComments = false
-+++
+---
+title: "Setting Up Hugo on Cloudflare"
+tags: ["cloudflare", "hugo", "static site generators"]
+date: 2022-05-27T22:31:19-04:00
+---
 
 I wanted to start off by sharing how I set up this site. I was impressed by how easy it was to do, especially since I'm new to both Hugo and Cloudflare Pages.
 

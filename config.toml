@@ -1,70 +1,132 @@
-# baseURL = 'http://jnicholson.me/' -- this isn't ready yet
-languageCode = 'en-us'
-baseurl = "/"
-theme = "terminal"
+baseURL = "https://jnicholson.me/"
+title = "Jonathan Nicholson"
 paginate = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
+enableGitInfo = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+title = "Jonathan Nicholson"
+description = "Jonathan Nicholson's Home Page"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "Jonathan Nicholson"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
 
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
+[params.assets]
+favicon = "<link / abs url>"
+favicon16x16 = "<link / abs url>"
+favicon32x32 = "<link / abs url>"
+apple_touch_icon = "<link / abs url>"
+safari_pinned_tab = "<link / abs url>"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+[params.label]
+text = "Home"
+icon = "/apple-touch-icon.png"
+iconHeight = 35
 
-  # show selector to switch language
-  showLanguageSelector = false
+[params.profileMode]
+enabled = false
+title = "ExampleSite"
+subtitle = "This is subtitle"
+imageUrl = "<img location>"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "my image"
 
-  # set theme to full screen width
-  fullWidthTheme = false
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "posts"
 
-  # center theme with default width
-  centerTheme = true
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
 
-  # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+[params.homeInfoParams]
+Title = "Hi there 👋"
+Content = "Welcome to my blog"
 
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = true
-  enableGitInfo = true
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
 
-  # set all headings to their default size (depending on browser settings)
-  # it's set to `true` by default
-  # oneHeadingSize = false
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/jonjnicholson"
 
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = "jonnich"
-  site = "https://twitter.com/jonnich"
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://mastodon.social/@jonjnicholson"
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Jonathan Nicholson"
-    subtitle = "A place to share what I am doing and what I've learned"
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+[[params.socialIcons]]
+name = "Pixelfed"
+url = "https://pixelfed.social/jonjnicholson"
 
-    [languages.en.params.logo]
-      logoText = "Jonathan Nicholson"
-      logoHomeLink = "/"
+[[params.socialIcons]]
+name = "GlassPhoto"
+url = "https://glass.photo/jonathan-nicholson"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "search"
+name = "search"
+url = "/search/"
+weight = 10
+
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+
+[markup.highlight]
+noClasses = false
+
+

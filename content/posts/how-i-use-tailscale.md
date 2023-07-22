@@ -1,16 +1,8 @@
-+++
-title = "How I Use Tailscale"
-date = "2023-06-18T17:44:03-04:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["technology", "vpn", "tailscale"]
-keywords = ["", ""]
-description = "How I'm using Tailscale to secure my personal devices"
-showFullContent = false
-readingTime = false
-hideComments = false
-+++
+---
+title: "How I Use Tailscale"
+tags: ["tailscale", "vpn"]
+date: 2023-06-18T17:44:03-04:00
+---
 
 ## What is it?
 > [Tailscale](https://tailscale.com/kb/1151/what-is-tailscale/#the-benefits) is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. It enables encrypted point-to-point connections using the open source WireGuard protocol, which means only devices on your private network can communicate with each other.
