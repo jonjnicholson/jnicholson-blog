@@ -1,6 +1,5 @@
 baseURL = "https://jnicholson.me/"
 title = "Jonathan Nicholson"
-title = "Jonathan Nicholson"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
