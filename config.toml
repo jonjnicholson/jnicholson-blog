@@ -85,6 +85,10 @@ name = "mastodon"
 url = "https://mastodon.social/@jonjnicholson"
 
 [[params.socialIcons]]
+name = "firefish"
+url = "https://fedia.social/@jonathan"
+
+[[params.socialIcons]]
 name = "Pixelfed"
 url = "https://pixelfed.social/jonjnicholson"
 
