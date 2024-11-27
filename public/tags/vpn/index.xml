@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vpn on Jonathan Nicholson</title>
+    <link>http://localhost:1313/tags/vpn/</link>
+    <description>Recent content in Vpn on Jonathan Nicholson</description>
+    <image>
+      <title>Jonathan Nicholson</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Jun 2023 17:44:03 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Use Tailscale</title>
+      <link>http://localhost:1313/posts/how-i-use-tailscale/</link>
+      <pubDate>Sun, 18 Jun 2023 17:44:03 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/how-i-use-tailscale/</guid>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://tailscale.com/kb/1151/what-is-tailscale/#the-benefits&#34;&gt;Tailscale&lt;/a&gt; is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. It enables encrypted point-to-point connections using the open source WireGuard protocol, which means only devices on your private network can communicate with each other.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has a very generous free tier that includes most of the features included in the higher paid tiers while limiting you to 100 devices&amp;ndash;more than enough for my use cases.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

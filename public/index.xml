@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jonathan Nicholson</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jonathan Nicholson</description>
+    <image>
+      <title>Jonathan Nicholson</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Nov 2024 21:17:08 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Productivity Tools Part 1 Obsidian</title>
+      <link>http://localhost:1313/posts/productivity-tools-part-1-obsidian/</link>
+      <pubDate>Tue, 26 Nov 2024 21:17:08 -0500</pubDate>
+      
+      <guid>http://localhost:1313/posts/productivity-tools-part-1-obsidian/</guid>
+      <description>&lt;p&gt;test&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How I Use Tailscale</title>
+      <link>http://localhost:1313/posts/how-i-use-tailscale/</link>
+      <pubDate>Sun, 18 Jun 2023 17:44:03 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/how-i-use-tailscale/</guid>
+      <description>&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://tailscale.com/kb/1151/what-is-tailscale/#the-benefits&#34;&gt;Tailscale&lt;/a&gt; is a VPN service that makes the devices and applications you own accessible anywhere in the world, securely and effortlessly. It enables encrypted point-to-point connections using the open source WireGuard protocol, which means only devices on your private network can communicate with each other.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It has a very generous free tier that includes most of the features included in the higher paid tiers while limiting you to 100 devices&amp;ndash;more than enough for my use cases.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Hugo on Cloudflare</title>
+      <link>http://localhost:1313/posts/setting-up-hugo-on-cloudflare/</link>
+      <pubDate>Fri, 27 May 2022 22:31:19 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/setting-up-hugo-on-cloudflare/</guid>
+      <description>&lt;p&gt;I wanted to start off by sharing how I set up this site. I was impressed by how easy it was to do, especially since I&amp;rsquo;m new to both Hugo and Cloudflare Pages.&lt;/p&gt;
+&lt;p&gt;I followed the &lt;a href=&#34;https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/&#34;&gt;excellent documentation&lt;/a&gt; that Cloudflare provides. If you&amp;rsquo;re not married to the idea of using Hugo, they also provide great documentation on &lt;a href=&#34;https://developers.cloudflare.com/pages/framework-guides/&#34;&gt;other frameworks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;One thing I missed the first time I pushed updates to my repo was &lt;a href=&#34;https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#using-a-specific-hugo-version&#34;&gt;setting the version of Hugo&lt;/a&gt;. The version that Hugo provides is older and didn&amp;rsquo;t work with my chosen theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 21 May 2022 08:17:23 -0400</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;hi--im-jonathan&#34;&gt;Hi 👋 I&amp;rsquo;m Jonathan&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m a software developer by trade, but I have many interests including: photography, travel, technology, productivity, ergo keyboards, alternative keyboard layouts, and more!&lt;/p&gt;
+&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;
+&lt;p&gt;Questions? Comments? Feel free to contact me at &lt;a href=&#34;mailto:contact@jnicholson.me&#34;&gt;contact@jnicholson.me&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Mon, 16 May 2022 22:11:59 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Write&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;hello world&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
