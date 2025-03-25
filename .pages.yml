@@ -11,3 +11,10 @@ content:
         search: ''
         sort: title
         order: desc
+    fields:
+      - name: date
+        label: Date
+        type: date
+      - name: title
+        label: Title
+        type: string
