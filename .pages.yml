@@ -3,4 +3,11 @@ content:
     label: Posts
     path: content/posts
     type: collection
-    fields: [title, tags, date]
+    view:
+      fields: [title, tags, date]
+      primary: title
+      sort: [ date, title ]
+      default:
+        search: ''
+        sort: title
+        order: desc
